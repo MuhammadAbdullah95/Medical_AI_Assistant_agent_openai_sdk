@@ -1,0 +1,29 @@
+[project]
+name = "openai-sdk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "MuhammadAbdullah95", email = "ma2404374@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "chainlit>=2.4.0",
+    "ctransformers>=0.2.27",
+    "google-genai>=1.5.0",
+    "langchain>=0.3.20",
+    "langchain-community>=0.3.19",
+    "langchain-google-genai>=2.1.0",
+    "langchain-huggingface>=0.1.2",
+    "langchain-pinecone>=0.2.3",
+    "openai-agents>=0.0.4",
+    "pinecone>=5.4.2",
+    "sentence-transformers>=3.4.1",
+]
+
+[project.scripts]
+openai-sdk = "openai_sdk:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
