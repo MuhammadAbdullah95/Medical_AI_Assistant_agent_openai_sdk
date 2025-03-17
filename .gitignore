@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# Chainlit internal files
+.chainlit/
+.files/
+
+# Dependency/lock files
+uv.lock
+
+# Data (optional: if contains sensitive/private data)
+
+
+# VSCode or JetBrains IDE settings (if any)
+.vscode/
+.idea/
