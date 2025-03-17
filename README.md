@@ -32,8 +32,8 @@ A **medical chatbot** powered by **Langchain, Pinecone, Google Gemini, and OpenA
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/medical-chatbot.git
-cd medical-chatbot
+git clone https://github.com/MuhammadAbdullah95/Medical_AI_Assistant_agent_openai_sdk.git
+cd Medical_AI_Assistant_agent_openai_sdk
 ```
 
 ---
@@ -47,6 +47,7 @@ uv sync
 ---
 
 > ⚙️ If `uv sync` is not working yet, install manually:
+
 ```bash
 uv add langchain openai pinecone-client google-search-results chainlit
 ```
@@ -94,14 +95,14 @@ chainlit run app.py
 
 ## 🛠 Tools Used in Chatbot
 
-| Tool                    | Purpose                                  |
-|------------------------|------------------------------------------|
-| **Langchain**           | LLM chaining, agents, tool integration   |
-| **Pinecone**            | Vector embeddings search & retrieval     |
-| **Google Gemini**       | Language model for generating responses  |
-| **OpenAI Agents SDK**   | Custom AI agent framework                |
-| **Google Search API**   | Dynamic data retrieval from the web      |
-| **Chainlit (optional)** | Development UI for real-time chat        |
+| Tool                    | Purpose                                 |
+| ----------------------- | --------------------------------------- |
+| **Langchain**           | LLM chaining, agents, tool integration  |
+| **Pinecone**            | Vector embeddings search & retrieval    |
+| **Google Gemini**       | Language model for generating responses |
+| **OpenAI Agents SDK**   | Custom AI agent framework               |
+| **Google Search API**   | Dynamic data retrieval from the web     |
+| **Chainlit (optional)** | Development UI for real-time chat       |
 
 ---
 
@@ -118,7 +119,7 @@ chainlit run app.py
 ## 📂 Project Structure
 
 ```
-medical-chatbot/
+Medical_AI_Assistant_agent_openai_sdk/
 ├── app.py                  # Main backend application
 ├── google_search.py       # Google search tool integration
 ├── retrievel_tool.py      # RAG-based retrieval system
@@ -135,18 +136,9 @@ medical-chatbot/
 
 ## 📖 Example Query & Response
 
-> **User**: *"What are the causes of high blood pressure?"*
+> **User**: _"What are the causes of high blood pressure?"_
 
-> **Bot**: *"High blood pressure, also known as hypertension, can be caused by several factors such as unhealthy diet, lack of exercise, obesity, genetics, and stress. For more updated research on treatments, would you like me to check the latest studies online?"*
-
----
-
-## 🚧 Roadmap
-
-- [ ] Fine-tune retrieval for more accurate medical answers.
-- [ ] Integrate real-time patient symptom checker.
-- [ ] HIPAA/GDPR compliance checks for sensitive data.
-- [ ] Frontend web UI for production use.
+> **Bot**: _"High blood pressure, also known as hypertension, can be caused by several factors such as unhealthy diet, lack of exercise, obesity, genetics, and stress. For more updated research on treatments, would you like me to check the latest studies online?"_
 
 ---
 
@@ -160,17 +152,11 @@ medical-chatbot/
 
 ---
 
-## 📜 License
-
-This project is licensed under [MIT License](LICENSE).
-
----
-
 ## 📧 Contact
 
 For issues, suggestions, or collaborations, reach out to:
 
-> **Email**: your-email@example.com  
-> **GitHub**: [your-username](https://github.com/your-username)
+> **Email**: ma2404374@gmail.com  
+> **GitHub**: MuhammadAbdullah95(https://github.com/muhammadabdullah95)
 
 ---
